@@ -11,14 +11,14 @@ const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'manishchahar148@gmail.com',
-    pass: 'python+3.0'
+    user: 'mymail@gmail.com',
+    pass: 'password'
   }
 });
 
 
 // connect mongoose to mongodb
-mongoose.connect("mongodb+srv://manish:python+3.0@cluster0-d1eab.mongodb.net/test?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://username:password@cluster0-d1eab.mongodb.net/test?retryWrites=true&w=majority",{
 useCreateIndex :true,
 useUnifiedTopology:true,
 useNewUrlParser : true
